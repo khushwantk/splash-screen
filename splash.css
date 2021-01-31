@@ -12,7 +12,6 @@
   }
   .splash.display-none {
     position: fixed;
-    opacity: 0;
     top: 0;
     left: 0;
     height: 100vh;
@@ -22,6 +21,7 @@
     align-items: center;
     justify-content: center;
     
+    opacity: 0;
     z-index: -10;
     transition: all 1s;
   }
